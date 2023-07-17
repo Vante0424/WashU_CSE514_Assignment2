@@ -1,0 +1,151 @@
+「MODEL」KNeighborsClassifier()
+Dim Reduction: None
+Best Estimator: KNeighborsClassifier(algorithm='kd_tree', n_neighbors=10), 
+Best Parameters: {'algorithm': 'kd_tree', 'n_neighbors': 10}
+Test Score : 0.953
+Dim Reduction: simpleQuality
+Best Estimator: KNeighborsClassifier(algorithm='brute', n_neighbors=10), 
+Best Parameters: {'algorithm': 'brute', 'n_neighbors': 10}
+Test Score : 0.934
+Dim Reduction: filterMethod
+Best Estimator: KNeighborsClassifier(algorithm='brute', n_neighbors=10), 
+Best Parameters: {'algorithm': 'brute', 'n_neighbors': 10}
+Test Score : 0.7205
+Dim Reduction: wrapperFeature
+Best Estimator: KNeighborsClassifier(algorithm='brute', n_neighbors=14), 
+Best Parameters: {'algorithm': 'brute', 'n_neighbors': 14}
+Test Score : 0.688
+Dim Reduction: embMethod
+Best Estimator: KNeighborsClassifier(algorithm='brute', n_neighbors=18), 
+Best Parameters: {'algorithm': 'brute', 'n_neighbors': 18}
+Test Score : 0.357
+Dim Reduction: featureExtraction
+Best Estimator: KNeighborsClassifier(algorithm='ball_tree', n_neighbors=12), 
+Best Parameters: {'algorithm': 'ball_tree', 'n_neighbors': 12}
+Test Score : 0.644
+「MODEL」DecisionTreeClassifier()
+Dim Reduction: None
+Best Estimator: DecisionTreeClassifier(max_depth=35, max_features='log2'), 
+Best Parameters: {'max_depth': 35, 'max_features': 'log2'}
+Test Score : 0.8495
+Dim Reduction: simpleQuality
+Best Estimator: DecisionTreeClassifier(max_depth=30, max_features='log2'), 
+Best Parameters: {'max_depth': 30, 'max_features': 'log2'}
+Test Score : 0.8615
+Dim Reduction: filterMethod
+Best Estimator: DecisionTreeClassifier(max_depth=20, max_features='sqrt'), 
+Best Parameters: {'max_depth': 20, 'max_features': 'sqrt'}
+Test Score : 0.721
+Dim Reduction: wrapperFeature
+Best Estimator: DecisionTreeClassifier(max_depth=20, max_features='log2'), 
+Best Parameters: {'max_depth': 20, 'max_features': 'log2'}
+Test Score : 0.6995
+Dim Reduction: embMethod
+Best Estimator: DecisionTreeClassifier(max_depth=35, max_features='log2'), 
+Best Parameters: {'max_depth': 35, 'max_features': 'log2'}
+Test Score : 0.363
+Dim Reduction: featureExtraction
+Best Estimator: DecisionTreeClassifier(max_depth=20, max_features='auto'), 
+Best Parameters: {'max_depth': 20, 'max_features': 'auto'}
+Test Score : 0.577
+「MODEL」SVC()
+Dim Reduction: None
+Best Estimator: SVC(C=100), 
+Best Parameters: {'C': 100, 'kernel': 'rbf'}
+Test Score : 0.9765
+Dim Reduction: simpleQuality
+Best Estimator: SVC(C=100), 
+Best Parameters: {'C': 100, 'kernel': 'rbf'}
+Test Score : 0.968
+Dim Reduction: filterMethod
+Best Estimator: SVC(C=100), 
+Best Parameters: {'C': 100, 'kernel': 'rbf'}
+Test Score : 0.7055
+Dim Reduction: wrapperFeature
+Best Estimator: SVC(C=100), 
+Best Parameters: {'C': 100, 'kernel': 'rbf'}
+Test Score : 0.6895
+Dim Reduction: embMethod
+Best Estimator: SVC(C=100), 
+Best Parameters: {'C': 100, 'kernel': 'rbf'}
+Test Score : 0.374
+Dim Reduction: featureExtraction
+Best Estimator: SVC(C=100), 
+Best Parameters: {'C': 100, 'kernel': 'rbf'}
+Test Score : 0.644
+「MODEL」RandomForestClassifier()
+Dim Reduction: None
+Best Estimator: RandomForestClassifier(max_features='sqrt', n_estimators=250), 
+Best Parameters: {'max_features': 'sqrt', 'n_estimators': 250}
+Test Score : 0.9685
+Dim Reduction: simpleQuality
+Best Estimator: RandomForestClassifier(max_features='sqrt', n_estimators=300), 
+Best Parameters: {'max_features': 'sqrt', 'n_estimators': 300}
+Test Score : 0.9575
+Dim Reduction: filterMethod
+Best Estimator: RandomForestClassifier(max_features='sqrt'), 
+Best Parameters: {'max_features': 'sqrt', 'n_estimators': 100}
+Test Score : 0.7335
+Dim Reduction: wrapperFeature
+Best Estimator: RandomForestClassifier(max_features='log2', n_estimators=150), 
+Best Parameters: {'max_features': 'log2', 'n_estimators': 150}
+Test Score : 0.705
+Dim Reduction: embMethod
+Best Estimator: RandomForestClassifier(max_features='log2', n_estimators=200), 
+Best Parameters: {'max_features': 'log2', 'n_estimators': 200}
+Test Score : 0.368
+Dim Reduction: featureExtraction
+Best Estimator: RandomForestClassifier(max_features='log2', n_estimators=250), 
+Best Parameters: {'max_features': 'log2', 'n_estimators': 250}
+Test Score : 0.6845
+「MODEL」MLPClassifier(max_iter=1000)
+Dim Reduction: None
+Best Estimator: MLPClassifier(activation='logistic', max_iter=1000), 
+Best Parameters: {'activation': 'logistic', 'learning_rate': 'constant'}
+Test Score : 0.9605
+Dim Reduction: simpleQuality
+Best Estimator: MLPClassifier(activation='logistic', max_iter=1000), 
+Best Parameters: {'activation': 'logistic', 'learning_rate': 'constant'}
+Test Score : 0.9485
+Dim Reduction: filterMethod
+Best Estimator: MLPClassifier(activation='tanh', learning_rate='invscaling', max_iter=1000), 
+Best Parameters: {'activation': 'tanh', 'learning_rate': 'invscaling'}
+Test Score : 0.7065
+Dim Reduction: wrapperFeature
+Best Estimator: MLPClassifier(activation='tanh', max_iter=1000), 
+Best Parameters: {'activation': 'tanh', 'learning_rate': 'constant'}
+Test Score : 0.699
+Dim Reduction: embMethod
+Best Estimator: MLPClassifier(activation='tanh', max_iter=1000), 
+Best Parameters: {'activation': 'tanh', 'learning_rate': 'constant'}
+Test Score : 0.365
+Dim Reduction: featureExtraction
+Best Estimator: MLPClassifier(activation='tanh', learning_rate='invscaling', max_iter=1000), 
+Best Parameters: {'activation': 'tanh', 'learning_rate': 'invscaling'}
+Test Score : 0.649
+「MODEL」AdaBoostClassifier()
+Dim Reduction: None
+Best Estimator: AdaBoostClassifier(learning_rate=0.1, n_estimators=200), 
+Best Parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Test Score : 0.373
+Dim Reduction: simpleQuality
+Best Estimator: AdaBoostClassifier(learning_rate=0.1, n_estimators=150), 
+Best Parameters: {'learning_rate': 0.1, 'n_estimators': 150}
+Test Score : 0.3805
+Dim Reduction: filterMethod
+Best Estimator: AdaBoostClassifier(learning_rate=0.1, n_estimators=100), 
+Best Parameters: {'learning_rate': 0.1, 'n_estimators': 100}
+Test Score : 0.269
+Dim Reduction: wrapperFeature
+Best Estimator: AdaBoostClassifier(learning_rate=0.1, n_estimators=200), 
+Best Parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Test Score : 0.2685
+Dim Reduction: embMethod
+Best Estimator: AdaBoostClassifier(learning_rate=0.25, n_estimators=150), 
+Best Parameters: {'learning_rate': 0.25, 'n_estimators': 150}
+Test Score : 0.1795
+Dim Reduction: featureExtraction
+Best Estimator: AdaBoostClassifier(learning_rate=0.5), 
+Best Parameters: {'learning_rate': 0.5, 'n_estimators': 50}
+Test Score : 0.208
+------------------------------------
